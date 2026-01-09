@@ -19,7 +19,6 @@ void solve() {
         max_ops = max(max_ops, children[i] + 1); 
     }
     if (children[1] > 1) max_ops = max(max_ops, children[1] + 1);
-
     cout << max_ops << "\n";
 }
 
