@@ -10,7 +10,6 @@ int main() {
     while (tc--) {
         int n;
         cin >> n;
-
         if (n % 4 == 0) {
             cout << 0 << '\n';
         } else if (n % 4 == 2) {
