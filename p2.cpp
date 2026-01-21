@@ -27,15 +27,14 @@ void solve() {
       cout << abs(x - y) << '\n';
    }
 }
- 
 int main() {
    ios::sync_with_stdio(false);
    cin.tie(nullptr);
  
-   int t;
-   t = 1;
-   cin >> t;
-   for (int cs = 1; cs <= t; cs++) {
+   int tc;
+   tc = 1;
+   cin >> tc;
+   for (int cs = 1; cs <= tc; cs++) {
       solve();
    }
    return 0;
